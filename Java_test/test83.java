@@ -19,6 +19,6 @@ class test83 {
 	    System.out.print( "\n偶数：" );
 		    for( int n : hairetu )
 			    if( ( n % 2 ) == 0 )
-			        System.out.print( n  + "," );
+			        System.out.print( n + "," );
     }
 }
