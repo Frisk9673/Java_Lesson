@@ -1,4 +1,5 @@
-class test71 {
+package mondai7;
+class test7_1 {
     public static void main(String[] args) {
         int num = 0;
         int sum = 0;

@@ -1,5 +1,6 @@
+package mondai4;
 import java.util.Scanner;
-class test41 {
+class test4_1 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
         

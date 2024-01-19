@@ -1,4 +1,5 @@
-class test67 {
+package mondai6;
+class test6_7 {
     public static void main(String[] args) {
 
         //1の段の処理

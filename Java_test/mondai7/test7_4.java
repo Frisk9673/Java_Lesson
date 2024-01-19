@@ -1,4 +1,5 @@
-class test74 {
+package mondai7;
+class test7_4 {
     public static void main(String[] args) {
 
         //nとsum(合計)の初期値を設定

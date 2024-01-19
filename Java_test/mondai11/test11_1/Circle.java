@@ -1,4 +1,4 @@
-package test11_1;
+package mondai11.test11_1;
 
 class Circle {
     public static final double PI = 3.1415;

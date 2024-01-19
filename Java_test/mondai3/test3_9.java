@@ -1,6 +1,7 @@
+package mondai3;
 import java.util.Scanner;
 
-class test39 {
+class test3_9 {
     public static void main(String[] args) {
         double r;  //半径の値
         double area;  //面積の値

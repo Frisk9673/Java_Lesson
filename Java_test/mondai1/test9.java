@@ -1,12 +1,14 @@
+package mondai1;
 import java.util.Scanner;
 
-public class test10 {
+
+class test9 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in, "Shift-JIS");
 
-        System.out.print("文字の入力：");
+        System.out.print("お名前を入力してください>");
         String str = stdIn.nextLine();
 
-        
+        System.out.println("こんにちは" + str + "さん！");
   }    
 }
