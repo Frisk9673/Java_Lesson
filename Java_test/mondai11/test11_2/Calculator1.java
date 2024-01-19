@@ -5,7 +5,7 @@ class Calculator1 {
     static int x;
     static int y;
 
-    //thisを使用する
+    //代入用のものを用意する
     public static void CalculateValues(int newX, int newY) {
         x = newX;
         y = newY;

@@ -1,7 +1,7 @@
 package mondai11.test11_1;
 
 class Circle {
-    public static final double PI = 3.1415;
+    public double PI = 3.1415;
     public double radius;
 
     //radiusを宣言
@@ -19,5 +19,3 @@ class Circle {
         return PI * radius * radius;
     }
 }
-
-
