@@ -1,19 +1,18 @@
 package mondai11.test11_2;
 
-class Calculator {
-
+class Calculator1 {
     //変数の宣言
-    private int x;
-    private int y;
+    static int x;
+    static int y;
 
     //thisを使用する
-    public Calculator(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public static void CalculateValues(int newX, int newY) {
+        x = newX;
+        y = newY;
     }
 
     //合計値を求める
-    public int calculateSum() {
+    public static int calculateSum1() {
         int sum = 0;
         for(int i = x; i <= y; i++) {
             sum += i;
@@ -21,3 +20,4 @@ class Calculator {
         return sum;
     }
 }
+
