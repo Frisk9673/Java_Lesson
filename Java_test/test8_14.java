@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class test814 {
+class test8_14 {
     public static void main(String[] args){
         /* # 作成した連想配列の値を表示 */
         

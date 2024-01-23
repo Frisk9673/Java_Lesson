@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class test83 {
+class test8_3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] hairetu = new int [10];

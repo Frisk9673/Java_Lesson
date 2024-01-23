@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class test85 {
+class test8_5 {
     public static void main(String[] args){
 
         // 要素数が5のリストを作成し、全要素の合計値と平均値を表示する

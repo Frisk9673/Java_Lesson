@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 
-class test91 {
+class test9_1 {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
