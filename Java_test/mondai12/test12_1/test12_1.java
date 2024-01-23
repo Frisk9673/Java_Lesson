@@ -8,25 +8,25 @@ class test12_1 {
         
         //半径を整数値で入力させる
         System.out.print("整数を入力してください：");
-        int x = scanner.nextInt();
+        int num1 = scanner.nextInt();
 
         System.out.print("整数を入力してください：");
-        int y = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
         //Calculatorを呼び出す
-        Calculator calculator = new Calculator(x, y);
+        Calculator calculator = new Calculator(num1, num2);
         int sum = calculator.CalcSum();
         int avg = calculator.CalcAve();
 
         //Calculatorから継承したMoreCalcを呼び出す
-        MoreCalc moreCalc = new MoreCalc(x, y);
+        MoreCalc moreCalc = new MoreCalc(num1, num2);
         int pow = moreCalc.CalcPow();
 
         //合計結果の出力
-        System.out.println("Sum " + x + " and " + y + " = " + sum);
+        System.out.println("Sum " + num1 + " and " + num2 + " = " + sum);
         //平均結果の出力
-        System.out.println("Average " + x + " and " + y + " = " + avg);
+        System.out.println("Average " + num1 + " and " + num2 + " = " + avg);
         //累乗結果の出力
-        System.out.println("Power " + x + " of " + y + " = " + pow);
+        System.out.println("Power " + num1 + " of " + num2 + " = " + pow);
     }
 }
