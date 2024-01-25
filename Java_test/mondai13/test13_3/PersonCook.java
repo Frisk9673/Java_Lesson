@@ -1,15 +1,15 @@
 package mondai13.test13_3;
 
 public class PersonCook implements Person {
-    private int id;
-    private static int count = 0;
 
-    private String name = "大原太郎";
-    private String job = "シェフ";
-    private String specialities = "オムライス";
+    private String name;
+    private String job;
+    private String specialities;
     
-    public PersonCook() {
-        id = ++count;
+    public PersonCook(String name, String job, String specialities) {
+        this.name = name;
+        this.job = job;
+        this.specialities = specialities;
     }
 
     @Override public void introduction() {
@@ -17,7 +17,5 @@ public class PersonCook implements Person {
         System.out.println("職種：" + job);
         System.out.println("得意料理：" + specialities);
     }
-    public void printInfo() {
-        System.out.println("++この教員の教員番号は[" + id + "]です。");
-    }
+    
 }
