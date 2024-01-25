@@ -8,6 +8,7 @@ class Calculator {
 
     //thisを使用する
     public Calculator(int num1, int num2) {
+        //Calculatorにメインから入力したnum1とnum2を持ってこさせる
         this.num1 = num1;
         this.num2 = num2;
     }
