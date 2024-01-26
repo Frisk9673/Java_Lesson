@@ -11,9 +11,9 @@ public class test14_2 {
         System.out.print("文字列を入力：");
         //ユーザからの入力を受け取る
         String userInput = scanner.nextLine();
-        //入力を元に新しい文字列を生成
+        //入力を元に文字数を得る
         int inputLength = userInput.length();
-        //
+        //取得した文字数の値を出力
         System.out.println("入力された文字数は" + inputLength + "です。");
         //Scannerを閉じる(リソースの開放)
         scanner.close();
