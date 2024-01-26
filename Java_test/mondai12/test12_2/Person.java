@@ -1,9 +1,9 @@
 package mondai12.test12_2;
 
 class Person {
-    String name = "";
+    protected String name = "";
     // 職業
-    String job = "";
+    protected String job = "";
 
     /**
      * コンストラクタ
@@ -11,7 +11,7 @@ class Person {
      * @param name 名前
      * @param job 職業
      */
-    Person(String name, String job) {
+    protected Person(String name, String job) {
         this.name = name;
         this.job = job;
     }
