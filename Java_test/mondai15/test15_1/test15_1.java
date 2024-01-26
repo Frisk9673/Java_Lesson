@@ -14,9 +14,9 @@ class test15_1 {
             int num2 = stdIn.nextInt();
 
             System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
-            } catch(ArithmeticException e) {
+        } catch(ArithmeticException e) {
             System.out.println("0による割り算です！！");
-            } finally {
+        } finally {
             System.out.println("処理終了");
         }
     }
