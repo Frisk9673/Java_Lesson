@@ -1,4 +1,4 @@
 ア = int
-イ = 
-ウ = 
+イ = String
+ウ = String
 エ = double
