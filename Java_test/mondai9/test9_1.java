@@ -1,3 +1,4 @@
+package mondai9;
 import java.util.Scanner;
 import java.util.*;
 
@@ -12,7 +13,7 @@ class test9_1 {
         display(school, name);
     }    
 
-    static void display(String[] args) {
+    static void display(String school, String name) {
         
         System.out.println("学校名：" + school);
         System.out.println("名前：" + name);

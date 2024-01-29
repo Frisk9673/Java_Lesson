@@ -1,3 +1,4 @@
+package mondai8;
 import java.util.Scanner;
 
 class test8_3 {

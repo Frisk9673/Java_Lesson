@@ -1,3 +1,4 @@
+package mondai8;
 
 class test8_1 {
     public static void main(String[] main) {
